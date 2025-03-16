@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="tel"],
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#copy-btn {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+#copy-btn:hover {
+  background-color: #218838;
+}
+
+.share-buttons {
+  margin-top: 20px;
+}
+
+.share-buttons button {
+  margin: 5px;
+  width: 100px;
+}
+
+#share-sms {
+  background-color: #17a2b8;
+}
+
+#share-sms:hover {
+  background-color: #117a8b;
+}
+
+#share-facebook {
+  background-color: #3b5998;
+}
+
+#share-facebook:hover {
+  background-color: #2d4373;
+}
+
+#share-messenger {
+  background-color: #0084ff;
+}
+
+#share-messenger:hover {
+  background-color: #0066cc;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
